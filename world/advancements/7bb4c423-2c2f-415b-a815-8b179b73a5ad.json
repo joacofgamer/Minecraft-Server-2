@@ -1078,6 +1078,7 @@
       "apple": "2025-01-17 16:36:18 +0100",
       "bread": "2025-01-17 16:36:21 +0100",
       "golden_apple": "2025-01-17 20:01:20 +0100",
+      "cooked_chicken": "2025-01-18 02:20:40 +0100",
       "rotten_flesh": "2025-01-17 02:37:53 +0100",
       "cooked_beef": "2025-01-17 20:40:10 +0100",
       "baked_potato": "2025-01-17 16:38:43 +0100",
@@ -4941,33 +4942,21 @@
     },
     "done": true
   },
-  "croptopia:recipes/spaghetti_squash": {
+  "minecraft:recipes/misc/raw_iron": {
     "criteria": {
-      "has_squash": "2025-01-17 23:21:07 +0100"
+      "has_raw_iron_block": "2025-01-17 23:07:31 +0100"
     },
     "done": true
   },
-  "croptopia:recipes/shaped_roasted_squash": {
+  "minecraft:wander_add_map": {
     "criteria": {
-      "has_squash": "2025-01-17 23:21:07 +0100"
+      "wandering": "2025-01-17 23:16:05 +0100"
     },
     "done": true
   },
-  "croptopia:recipes/misc/cabbage_seed": {
+  "minecraft:adventure/trade": {
     "criteria": {
-      "has_cabbage": "2025-01-17 23:20:26 +0100"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/borscht": {
-    "criteria": {
-      "has_cabbage": "2025-01-17 23:20:26 +0100"
-    },
-    "done": true
-  },
-  "nova_structures:adventure/find_illager_mansion": {
-    "criteria": {
-      "minecraft:woodland_mansion": "2025-01-17 23:34:33 +0100"
+      "traded": "2025-01-17 23:16:15 +0100"
     },
     "done": true
   },
@@ -4977,9 +4966,15 @@
     },
     "done": true
   },
-  "croptopia:recipes/shaped_ratatouille": {
+  "minecraft:recipes/food/dried_kelp_from_smelting": {
     "criteria": {
-      "has_squash": "2025-01-17 23:21:07 +0100"
+      "has_kelp": "2025-01-17 23:18:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
+    "criteria": {
+      "has_kelp": "2025-01-17 23:18:09 +0100"
     },
     "done": true
   },
@@ -5013,17 +5008,73 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/strawberry_seed": {
+  "croptopia:recipes/misc/blackberry_seed": {
     "criteria": {
-      "has_strawberry": "2025-01-17 23:25:17 +0100"
+      "has_blackberry": "2025-01-17 23:20:15 +0100"
     },
     "done": true
   },
-  "croptopia:recipes/yoghurt": {
+  "croptopia:recipes/misc/cabbage_seed": {
     "criteria": {
-      "has_strawberry": "2025-01-17 23:25:17 +0100"
+      "has_cabbage": "2025-01-17 23:20:26 +0100"
     },
     "done": true
+  },
+  "croptopia:recipes/misc/borscht": {
+    "criteria": {
+      "has_cabbage": "2025-01-17 23:20:26 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cabbage_roll": {
+    "criteria": {
+      "has_cabbage": "2025-01-17 23:20:26 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/goulash": {
+    "criteria": {
+      "has_cabbage": "2025-01-17 23:20:26 +0100"
+    },
+    "done": true
+  },
+  "croptopia:gather_plains": {
+    "criteria": {
+      "chile_pepper_seed": "2025-01-17 23:21:29 +0100",
+      "cabbage_seed": "2025-01-17 23:20:27 +0100"
+    },
+    "done": false
+  },
+  "croptopia:recipes/spaghetti_squash": {
+    "criteria": {
+      "has_squash": "2025-01-17 23:21:07 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_roasted_squash": {
+    "criteria": {
+      "has_squash": "2025-01-17 23:21:07 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_ratatouille": {
+    "criteria": {
+      "has_squash": "2025-01-17 23:21:07 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/squash_seed": {
+    "criteria": {
+      "has_squash": "2025-01-17 23:21:07 +0100"
+    },
+    "done": true
+  },
+  "croptopia:gather_savanna": {
+    "criteria": {
+      "squash_seed": "2025-01-17 23:21:07 +0100",
+      "rutabaga_seed": "2025-01-17 23:21:28 +0100"
+    },
+    "done": false
   },
   "croptopia:recipes/misc/rutabaga_seed": {
     "criteria": {
@@ -5037,45 +5088,9 @@
     },
     "done": true
   },
-  "minecraft:wander_add_map": {
-    "criteria": {
-      "wandering": "2025-01-17 23:16:05 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_smelting": {
-    "criteria": {
-      "has_kelp": "2025-01-17 23:18:09 +0100"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/strawberry_jam": {
-    "criteria": {
-      "has_strawberry": "2025-01-17 23:25:17 +0100"
-    },
-    "done": true
-  },
   "croptopia:recipes/pepperoni": {
     "criteria": {
       "has_pepper": "2025-01-17 23:21:29 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
-    "criteria": {
-      "has_kelp": "2025-01-17 23:18:09 +0100"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/squash_seed": {
-    "criteria": {
-      "has_squash": "2025-01-17 23:21:07 +0100"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/strawberry_smoothie": {
-    "criteria": {
-      "has_strawberry": "2025-01-17 23:25:17 +0100"
     },
     "done": true
   },
@@ -5085,36 +5100,35 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/cabbage_roll": {
+  "croptopia:recipes/paprika": {
     "criteria": {
-      "has_cabbage": "2025-01-17 23:20:26 +0100"
+      "has_chile_peppers": "2025-01-17 23:21:29 +0100"
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
+  "croptopia:recipes/misc/strawberry_seed": {
     "criteria": {
-      "traded": "2025-01-17 23:16:15 +0100"
+      "has_strawberry": "2025-01-17 23:25:17 +0100"
     },
     "done": true
   },
-  "croptopia:recipes/misc/goulash": {
+  "croptopia:recipes/yoghurt": {
     "criteria": {
-      "has_cabbage": "2025-01-17 23:20:26 +0100"
+      "has_strawberry": "2025-01-17 23:25:17 +0100"
     },
     "done": true
   },
-  "croptopia:recipes/misc/blackberry_seed": {
+  "croptopia:recipes/misc/strawberry_jam": {
     "criteria": {
-      "has_blackberry": "2025-01-17 23:20:15 +0100"
+      "has_strawberry": "2025-01-17 23:25:17 +0100"
     },
     "done": true
   },
-  "croptopia:gather_savanna": {
+  "croptopia:recipes/misc/strawberry_smoothie": {
     "criteria": {
-      "squash_seed": "2025-01-17 23:21:07 +0100",
-      "rutabaga_seed": "2025-01-17 23:21:28 +0100"
+      "has_strawberry": "2025-01-17 23:25:17 +0100"
     },
-    "done": false
+    "done": true
   },
   "croptopia:recipes/shaped_trifle": {
     "criteria": {
@@ -5128,22 +5142,321 @@
     },
     "done": true
   },
-  "croptopia:gather_plains": {
+  "nova_structures:adventure/find_illager_mansion": {
     "criteria": {
-      "chile_pepper_seed": "2025-01-17 23:21:29 +0100",
-      "cabbage_seed": "2025-01-17 23:20:27 +0100"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/raw_iron": {
-    "criteria": {
-      "has_raw_iron_block": "2025-01-17 23:07:31 +0100"
+      "minecraft:woodland_mansion": "2025-01-17 23:34:33 +0100"
     },
     "done": true
   },
-  "croptopia:recipes/paprika": {
+  "evenmoreinstruments:recipes/keyboard": {
     "criteria": {
-      "has_chile_peppers": "2025-01-17 23:21:29 +0100"
+      "has_item": "2025-01-18 01:31:05 +0100"
+    },
+    "done": true
+  },
+  "genshinstrument:recipes/vintage_lyre": {
+    "criteria": {
+      "has_main": "2025-01-18 01:31:05 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/diamond_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 01:31:05 +0100"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/computer_normal": {
+    "criteria": {
+      "has_redstone": "2025-01-18 01:31:05 +0100"
+    },
+    "done": true
+  },
+  "genshinstrument:genshin_instruments/root": {
+    "criteria": {
+      "has_instruments": "2025-01-18 01:31:05 +0100"
+    },
+    "done": true
+  },
+  "evenmoreinstruments:recipes/looper": {
+    "criteria": {
+      "has_item": "2025-01-18 01:39:30 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chilli_relleno": {
+    "criteria": {
+      "has_egg": "2025-01-18 01:39:51 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/scrambled_eggs": {
+    "criteria": {
+      "has_egg": "2025-01-18 01:39:51 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2025-01-18 01:39:51 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-01-18 01:39:51 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/egg_roll": {
+    "criteria": {
+      "has_egg": "2025-01-18 01:39:51 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/meringue": {
+    "criteria": {
+      "has_egg": "2025-01-18 01:39:51 +0100"
+    },
+    "done": true
+  },
+  "evenmoreinstruments:recipes/shamisen": {
+    "criteria": {
+      "has_item": "2025-01-18 01:59:39 +0100"
+    },
+    "done": true
+  },
+  "evenmoreinstruments:recipes/pipa": {
+    "criteria": {
+      "has_item": "2025-01-18 01:59:39 +0100"
+    },
+    "done": true
+  },
+  "evenmoreinstruments:recipes/guitar": {
+    "criteria": {
+      "has_item": "2025-01-18 01:59:59 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/iron_reinforced_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:03:22 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/iron_reinforced_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:03:22 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/iron_destructor_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:03:22 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/iron_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:03:22 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs": {
+    "criteria": {
+      "has_polished_diorite": "2025-01-18 02:04:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab": {
+    "criteria": {
+      "has_polished_diorite": "2025-01-18 02:04:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2025-01-18 02:04:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_polished_diorite_stonecutting": {
+    "criteria": {
+      "has_polished_diorite": "2025-01-18 02:04:03 +0100"
+    },
+    "done": true
+  },
+  "evenmoreinstruments:recipes/record_writable": {
+    "criteria": {
+      "has_item": "2025-01-18 02:04:18 +0100"
+    },
+    "done": true
+  },
+  "genshinstrument:recipes/nightwind_horn": {
+    "criteria": {
+      "has_main": "2025-01-18 02:04:20 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/gold_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:04:20 +0100"
+    },
+    "done": true
+  },
+  "evenmoreinstruments:recipes/trombone": {
+    "criteria": {
+      "has_item": "2025-01-18 02:04:20 +0100"
+    },
+    "done": true
+  },
+  "rpg_series:classes": {
+    "criteria": {
+      "book": "2025-01-18 02:04:37 +0100"
+    },
+    "done": true
+  },
+  "rpg_series:path_choose_priest": {
+    "criteria": {
+      "book": "2025-01-18 02:04:55 +0100"
+    },
+    "done": true
+  },
+  "rpg_series:path_choose_arcane": {
+    "criteria": {
+      "book": "2025-01-18 02:11:22 +0100"
+    },
+    "done": true
+  },
+  "rpg_series:spell_novice_arcane": {
+    "criteria": {
+      "bind": "2025-01-18 02:11:53 +0100"
+    },
+    "done": true
+  },
+  "rpg_series:spell_novice_priest": {
+    "criteria": {
+      "bind": "2025-01-18 02:12:26 +0100"
+    },
+    "done": true
+  },
+  "rpg_series:path_choose_fire": {
+    "criteria": {
+      "book": "2025-01-18 02:14:40 +0100"
+    },
+    "done": true
+  },
+  "rpg_series:spell_novice_fire": {
+    "criteria": {
+      "bind": "2025-01-18 02:14:45 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/stone_destructor_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:17:38 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/stone_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:17:38 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/stone_reinforced_impact_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:17:38 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/stone_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:17:38 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/stone_reinforced_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:17:38 +0100"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/chicken": {
+    "criteria": {
+      "has_feather": "2025-01-18 02:19:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2025-01-18 02:19:02 +0100"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cashew_chicken": {
+    "criteria": {
+      "has_cooked_chicken": "2025-01-18 02:19:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2025-01-18 02:23:59 +0100"
+    },
+    "done": true
+  },
+  "justhammers:recipes/tools/iron_hammer": {
+    "criteria": {
+      "has_material": "2025-01-18 02:25:30 +0100"
+    },
+    "done": true
+  },
+  "rpg_series:path_choose_paladin": {
+    "criteria": {
+      "book": "2025-01-18 02:26:03 +0100"
+    },
+    "done": true
+  },
+  "rpg_series:spell_novice_paladin": {
+    "criteria": {
+      "bind": "2025-01-18 02:26:20 +0100"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/birch_shrub": {
+    "criteria": {
+      "has_birch_sapling": "2025-01-18 02:44:45 +0100"
+    },
+    "done": true
+  },
+  "genshinstrument:recipes/windsong_lyre": {
+    "criteria": {
+      "has_main": "2025-01-18 02:58:44 +0100"
+    },
+    "done": true
+  },
+  "evenmoreinstruments:recipes/saxophone": {
+    "criteria": {
+      "has_item": "2025-01-18 02:33:24 +0100"
+    },
+    "done": true
+  },
+  "croptopia:root": {
+    "criteria": {
+      "root": "2025-01-18 02:45:17 +0100"
+    },
+    "done": true
+  },
+  "evenmoreinstruments:genshin_instruments/asian_instruments": {
+    "criteria": {
+      "koto_played": "2025-01-18 03:07:14 +0100"
+    },
+    "done": false
+  },
+  "genshinstrument:genshin_instruments/windsong_lyre": {
+    "criteria": {
+      "instrument_played": "2025-01-18 02:59:05 +0100"
     },
     "done": true
   },
